@@ -1,0 +1,128 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+	<model name="Quadruped">
+		<static>false</static>
+		<link name='chassis'>
+			<pose>0 0 .3 0 0 0</pose>
+			<collision name='collision'>
+				<geometry>
+					<box><size>.5 .25 .125</size></box>
+				</geometry>
+			</collision>
+			<visual name='visual'>
+                                <geometry>
+                                        <box><size>.5 .25 .125</size></box>
+                                </geometry>
+                        </visual>
+		</link>
+		<link name='fl leg'>
+			<pose>0.1875 .1875 0.18125 0 0 0 </pose>
+			<collision name='collision'>
+				<geometry>
+					<cylinder>
+						<radius>0.0625</radius>
+						<length>0.3625</length>	
+					</cylinder>
+				</geometry>
+			</collision>
+			<visual name='visual'>
+				<geometry>
+					<cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+				</geometry>
+			</visual>
+		</link>
+		<link name='fr leg'>
+                        <pose>0.1875 -0.1875 0.18125 0 0 0 </pose>
+                        <collision name='collision'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+                                </geometry>
+                        </collision>
+                        <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+                </link>
+		<link name='bl leg'>
+                        <pose>-0.1875 .1875 0.18125 0 0 0 </pose>
+                        <collision name='collision'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+                                </geometry>
+                        </collision>
+                        <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+                </link>
+		<link name='br leg'>
+                        <pose>-0.1875 -.1875 0.18125 0 0 0 </pose>
+                        <collision name='collision'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+                                </geometry>
+                        </collision>
+                        <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.0625</radius>
+                                                <length>0.3625</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+                </link>
+		<joint type="revolute" name="fl leg_hinge">
+        		<pose>0 0 0.090625 0 0 0</pose>
+       			<child>fl leg</child>
+        		<parent>chassis</parent>
+        		<axis>
+          			<xyz>0 1 0</xyz>
+        		</axis>
+      		</joint> 
+		<joint type="revolute" name="fr leg_hinge">
+                        <pose>0 0 0.090625 0 0 0</pose>
+                        <child>fr leg</child>
+                        <parent>chassis</parent>
+                        <axis>
+                                <xyz>0 1 0</xyz>
+                        </axis>
+                </joint>
+		<joint type="revolute" name="bl leg_hinge">
+                        <pose>0 0 0.090625 0 0 0</pose>
+                        <child>bl leg</child>
+                        <parent>chassis</parent>
+                        <axis>
+                                <xyz>0 1 0</xyz>
+                        </axis>
+                </joint>
+		<joint type="revolute" name="br leg_hinge">
+                        <pose>0 0 0.090625 0 0 0</pose>
+                        <child>br leg</child>
+                        <parent>chassis</parent>
+                        <axis>
+                                <xyz>0 1 0</xyz>
+                        </axis>
+                </joint>
+	</model>
+</sdf>
+

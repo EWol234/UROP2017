@@ -1,0 +1,498 @@
+17:36:47: Creating resource group General
+17:36:47: Creating resource group Internal
+17:36:47: Creating resource group Autodetect
+17:36:47: SceneManagerFactory for type 'DefaultSceneManager' registered.
+17:36:47: Registering ResourceManager for type Material
+17:36:47: Registering ResourceManager for type Mesh
+17:36:47: Registering ResourceManager for type Skeleton
+17:36:47: MovableObjectFactory for type 'ParticleSystem' registered.
+17:36:47: ArchiveFactory for archive type FileSystem registered.
+17:36:47: ArchiveFactory for archive type Zip registered.
+17:36:47: ArchiveFactory for archive type EmbeddedZip registered.
+17:36:47: DDS codec registering
+17:36:47: FreeImage version: 3.17.0
+17:36:47: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+17:36:47: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,x3f,webp,jxr,wdp,hdp
+17:36:47: PVRTC codec registering
+17:36:47: ETC codec registering
+17:36:47: Registering ResourceManager for type HighLevelGpuProgram
+17:36:47: Registering ResourceManager for type Compositor
+17:36:47: MovableObjectFactory for type 'Entity' registered.
+17:36:47: MovableObjectFactory for type 'Light' registered.
+17:36:47: MovableObjectFactory for type 'BillboardSet' registered.
+17:36:47: MovableObjectFactory for type 'ManualObject' registered.
+17:36:47: MovableObjectFactory for type 'BillboardChain' registered.
+17:36:47: MovableObjectFactory for type 'RibbonTrail' registered.
+17:36:47: OGRE EXCEPTION(6:FileNotFoundException): 'plugins.cfg' file not found! in ConfigFile::load at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreConfigFile.cpp (line 82)
+17:36:47: plugins.cfg not found, automatic plugin loading disabled.
+17:36:47: *-*-* OGRE Initialising
+17:36:47: *-*-* Version 1.9.0 (Ghadamon)
+17:36:47: OverlayElementFactory for type Panel registered.
+17:36:47: OverlayElementFactory for type BorderPanel registered.
+17:36:47: OverlayElementFactory for type TextArea registered.
+17:36:47: Registering ResourceManager for type Font
+17:36:47: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so
+17:36:47: Installing plugin: GL RenderSystem
+17:36:47: OpenGL Rendering Subsystem created.
+17:36:47: Plugin successfully installed
+17:36:47: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_ParticleFX.so
+17:36:47: Installing plugin: ParticleFX
+17:36:47: Particle Emitter Type 'Point' registered
+17:36:47: Particle Emitter Type 'Box' registered
+17:36:47: Particle Emitter Type 'Ellipsoid' registered
+17:36:47: Particle Emitter Type 'Cylinder' registered
+17:36:47: Particle Emitter Type 'Ring' registered
+17:36:47: Particle Emitter Type 'HollowEllipsoid' registered
+17:36:47: Particle Affector Type 'LinearForce' registered
+17:36:47: Particle Affector Type 'ColourFader' registered
+17:36:47: Particle Affector Type 'ColourFader2' registered
+17:36:47: Particle Affector Type 'ColourImage' registered
+17:36:47: Particle Affector Type 'ColourInterpolator' registered
+17:36:47: Particle Affector Type 'Scaler' registered
+17:36:47: Particle Affector Type 'Rotator' registered
+17:36:47: Particle Affector Type 'DirectionRandomiser' registered
+17:36:47: Particle Affector Type 'DeflectorPlane' registered
+17:36:47: Plugin successfully installed
+17:36:47: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_BSPSceneManager.so
+17:36:47: Installing plugin: BSP Scene Manager
+17:36:47: Plugin successfully installed
+17:36:47: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_OctreeSceneManager.so
+17:36:47: Installing plugin: Octree Scene Manager
+17:36:47: Plugin successfully installed
+17:36:47: CPU Identifier & Features
+17:36:47: -------------------------
+17:36:47:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+17:36:47:  *      SSE: yes
+17:36:47:  *     SSE2: yes
+17:36:47:  *     SSE3: yes
+17:36:47:  *      MMX: yes
+17:36:47:  *   MMXEXT: yes
+17:36:47:  *    3DNOW: no
+17:36:47:  * 3DNOWEXT: no
+17:36:47:  *     CMOV: yes
+17:36:47:  *      TSC: yes
+17:36:47:  *      FPU: yes
+17:36:47:  *      PRO: yes
+17:36:47:  *       HT: no
+17:36:47: -------------------------
+17:36:47: ******************************
+*** Starting GLX Subsystem ***
+******************************
+17:36:47: Registering ResourceManager for type Texture
+17:36:47: Added resource location '/usr/share/gazebo-7/' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media' of type 'FileSystem' to resource group 'General'
+17:36:47: Creating resource group SkyX
+17:36:47: Added resource location '/usr/share/gazebo-7/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/materials/programs' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/materials/textures' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/media/models' of type 'FileSystem' to resource group 'General'
+17:36:47: Creating resource group Fonts
+17:36:47: Added resource location '/usr/share/gazebo-7/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Creating resource group LookNFeel
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+17:36:47: Creating resource group Schemes
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+17:36:47: Creating resource group Imagesets
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Creating resource group Layouts
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+17:36:47: Creating resource group Animations
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/skyx' of type 'FileSystem' to resource group 'SkyX'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/materials/programs' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/materials/textures' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/media/models' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+17:36:47: Added resource location '/usr/share/gazebo-7/' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/materials/programs' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/materials/textures' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/media/models' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+17:36:47: Added resource location '/usr/share/gazebo-7/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/skyx' of type 'FileSystem' to resource group 'SkyX'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/materials/programs' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/materials/textures' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/media/models' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+17:36:47: Added resource location '/usr/share/gazebo-7/Media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/materials/programs' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/materials/textures' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/media/models' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/skyx' of type 'FileSystem' to resource group 'SkyX'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/materials/programs' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/materials/scripts' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/materials/textures' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/media/models' of type 'FileSystem' to resource group 'General'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+17:36:47: Added resource location '/home/eyobw/catkin_ws/src/hector_nist_arena_elements/Media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+17:36:47: GLRenderSystem::_createRenderWindow "OgreWindow(0)", 1x1 windowed  miscParams: FSAA=4 border=none macAPI=carbon parentWindowHandle=62914561 stereoMode=Frame Sequential 
+17:36:48: GLXWindow::create used FBConfigID = 187
+17:36:48: GL_VERSION = 2.1 Mesa 11.2.0
+17:36:48: GL_VENDOR = VMware, Inc.
+17:36:48: GL_RENDERER = Gallium 0.4 on SVGA3D; build: RELEASE;  LLVM;
+17:36:48: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_fog_distance GL_APPLE_packed_pixels GL_APPLE_vertex_array_object GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_packed_depth_stencil GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_gpu_program_parameters GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_ARB_copy_buffer GL_ARB_half_float_vertex GL_ARB_map_buffer_range GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_ARB_ES2_compatibility GL_ARB_debug_output GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sampler_objects GL_ARB_shader_texture_lod GL_EXT_provoking_vertex GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_texture_storage GL_AMD_shader_trinary_minmax GL_ARB_clear_buffer_object GL_ARB_explicit_uniform_location GL_ARB_invalidate_subdata GL_ARB_program_interface_query GL_ARB_vertex_attrib_binding GL_KHR_debug GL_ARB_multi_bind GL_ARB_get_texture_sub_image GL_KHR_context_flush_control 
+17:36:48: Supported GLX extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_SGI_make_current_read GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap 
+17:36:48: ***************************
+17:36:48: *** GL Renderer Started ***
+17:36:48: ***************************
+17:36:48: Registering ResourceManager for type GpuProgram
+17:36:48: GLSL support detected
+17:36:48: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+17:36:48: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_A4L4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+17:36:48: [GL] : Valid FBO targets PF_UNKNOWN PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+17:36:48: RenderSystem capabilities
+17:36:48: -------------------------
+17:36:48: RenderSystem Name: OpenGL Rendering Subsystem
+17:36:48: GPU Vendor: unknown
+17:36:48: Device Name: Gallium 0.4 on SVGA3D; build: RELEASE;  LLVM;
+17:36:48: Driver Version: 2.1.0.0
+17:36:48:  * Fixed function pipeline: yes
+17:36:48:  * Hardware generation of mipmaps: yes
+17:36:48:  * Texture blending: yes
+17:36:48:  * Anisotropic texture filtering: yes
+17:36:48:  * Dot product texture operation: yes
+17:36:48:  * Cube mapping: yes
+17:36:48:  * Hardware stencil buffer: yes
+17:36:48:    - Stencil depth: 8
+17:36:48:    - Two sided stencil support: yes
+17:36:48:    - Wrap stencil values: yes
+17:36:48:  * Hardware vertex / index buffers: yes
+17:36:48:  * Vertex programs: yes
+17:36:48:  * Number of floating-point constants for vertex programs: 256
+17:36:48:  * Number of integer constants for vertex programs: 0
+17:36:48:  * Number of boolean constants for vertex programs: 0
+17:36:48:  * Fragment programs: yes
+17:36:48:  * Number of floating-point constants for fragment programs: 224
+17:36:48:  * Number of integer constants for fragment programs: 0
+17:36:48:  * Number of boolean constants for fragment programs: 0
+17:36:48:  * Geometry programs: no
+17:36:48:  * Number of floating-point constants for geometry programs: 0
+17:36:48:  * Number of integer constants for geometry programs: 0
+17:36:48:  * Number of boolean constants for geometry programs: 0
+17:36:48:  * Tesselation Hull programs: no
+17:36:48:  * Number of floating-point constants for tesselation hull programs: 0
+17:36:48:  * Number of integer constants for tesselation hull programs: 0
+17:36:48:  * Number of boolean constants for tesselation hull programs: 0
+17:36:48:  * Tesselation Domain programs: no
+17:36:48:  * Number of floating-point constants for tesselation domain programs: 0
+17:36:48:  * Number of integer constants for tesselation domain programs: 0
+17:36:48:  * Number of boolean constants for tesselation domain programs: 0
+17:36:48:  * Compute programs: no
+17:36:48:  * Number of floating-point constants for compute programs: 0
+17:36:48:  * Number of integer constants for compute programs: 0
+17:36:48:  * Number of boolean constants for compute programs: 0
+17:36:48:  * Supported Shader Profiles: arbfp1 arbvp1 glsl
+17:36:48:  * Texture Compression: yes
+17:36:48:    - DXT: yes
+17:36:48:    - VTC: no
+17:36:48:    - PVRTC: no
+17:36:48:    - ATC: no
+17:36:48:    - ETC1: no
+17:36:48:    - ETC2: no
+17:36:48:    - BC4/BC5: no
+17:36:48:    - BC6H/BC7: no
+17:36:48:  * Scissor Rectangle: yes
+17:36:48:  * Hardware Occlusion Query: yes
+17:36:48:  * User clip planes: yes
+17:36:48:  * VET_UBYTE4 vertex element type: yes
+17:36:48:  * Infinite far plane projection: yes
+17:36:48:  * Hardware render-to-texture: yes
+17:36:48:  * Floating point textures: yes
+17:36:48:  * Non-power-of-two textures: yes
+17:36:48:  * 1d textures: yes
+17:36:48:  * Volume textures: yes
+17:36:48:  * Multiple Render Targets: 4
+17:36:48:    - With different bit depths: yes
+17:36:48:  * Point Sprites: yes
+17:36:48:  * Extended point parameters: yes
+17:36:48:  * Max Point Size: 1
+17:36:48:  * Vertex texture fetch: no
+17:36:48:  * Number of world matrices: 0
+17:36:48:  * Number of texture units: 16
+17:36:48:  * Stencil buffer depth: 8
+17:36:48:  * Number of vertex blend matrices: 0
+17:36:48:  * Render to Vertex Buffer : no
+17:36:48:  * Hardware Atomic Counters: no
+17:36:48:  * GL 1.5 without VBO workaround: no
+17:36:48:  * Frame Buffer objects: yes
+17:36:48:  * Frame Buffer objects (ARB extension): no
+17:36:48:  * Frame Buffer objects (ATI extension): no
+17:36:48:  * PBuffer support: yes
+17:36:48:  * GL 1.5 without HW-occlusion workaround: no
+17:36:48:  * Vertex Array Objects: no
+17:36:48:  * Separate shader objects: no
+17:36:48: DefaultWorkQueue('Root') initialising on thread 7fcac3440280.
+17:36:48: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca86129700 starting.
+17:36:48: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca85928700 starting.
+17:36:48: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca85127700 starting.
+17:36:48: Particle Renderer Type 'billboard' registered
+17:36:48: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca84926700 starting.
+17:36:48: SceneManagerFactory for type 'BspSceneManager' registered.
+17:36:48: Registering ResourceManager for type BspLevel
+17:36:48: SceneManagerFactory for type 'OctreeSceneManager' registered.
+17:36:48: Parsing scripts for resource group Animations
+17:36:48: Finished parsing scripts for resource group Animations
+17:36:48: Creating resources for group Animations
+17:36:48: All done
+17:36:48: Parsing scripts for resource group Autodetect
+17:36:48: Finished parsing scripts for resource group Autodetect
+17:36:48: Creating resources for group Autodetect
+17:36:48: All done
+17:36:48: Parsing scripts for resource group Fonts
+17:36:48: Parsing script Gazebo.fontdef
+17:36:48: Parsing script Gazebo.fontdef
+17:36:48: Finished parsing scripts for resource group Fonts
+17:36:48: Creating resources for group Fonts
+17:36:48: All done
+17:36:48: Parsing scripts for resource group General
+17:36:48: Parsing script shadow_caster.program
+17:36:48: Parsing script deferred_post.program
+17:36:48: Parsing script VPL.program
+17:36:48: Parsing script ShadowCaster.program
+17:36:48: Parsing script perpixel.program
+17:36:48: Parsing script shadow_caster.program
+17:36:48: Parsing script deferred_post.program
+17:36:48: Parsing script VPL.program
+17:36:48: Parsing script ShadowCaster.program
+17:36:48: Parsing script perpixel.program
+17:36:48: Parsing script oculus.material
+17:36:48: Parsing script ssao.material
+17:36:48: Parsing script picker.material
+17:36:48: Parsing script gazebo.material
+17:36:48: Parsing script kitchen.material
+17:36:48: Parsing script grid.material
+17:36:48: Parsing script VPL.material
+17:36:48: Parsing script deferred_post.material
+17:36:48: Parsing script deferred_post_minilight.material
+17:36:48: Parsing script blur.material
+17:36:48: Parsing script ShadowCaster.material
+17:36:48: Parsing script oculus.material
+17:36:48: Parsing script ssao.material
+17:36:48: Parsing script picker.material
+17:36:48: Parsing script gazebo.material
+17:36:48: Parsing script kitchen.material
+17:36:48: Parsing script grid.material
+17:36:48: Parsing script VPL.material
+17:36:48: Parsing script deferred_post.material
+17:36:48: Parsing script deferred_post_minilight.material
+17:36:48: Parsing script blur.material
+17:36:48: Parsing script ShadowCaster.material
+17:36:48: Parsing script ssao.compositor
+17:36:48: Parsing script WideCameraLensMap.compositor
+17:36:48: Parsing script deferred.compositor
+17:36:48: Parsing script noise.compositor
+17:36:48: Parsing script distortion.compositor
+17:36:48: Parsing script blur.compositor
+17:36:48: Parsing script ssao.compositor
+17:36:48: Parsing script WideCameraLensMap.compositor
+17:36:48: Parsing script deferred.compositor
+17:36:48: Parsing script noise.compositor
+17:36:48: Parsing script distortion.compositor
+17:36:48: Parsing script blur.compositor
+17:36:48: Finished parsing scripts for resource group General
+17:36:48: Creating resources for group General
+17:36:48: All done
+17:36:48: Parsing scripts for resource group Imagesets
+17:36:48: Finished parsing scripts for resource group Imagesets
+17:36:48: Creating resources for group Imagesets
+17:36:48: All done
+17:36:48: Parsing scripts for resource group Internal
+17:36:48: Finished parsing scripts for resource group Internal
+17:36:48: Creating resources for group Internal
+17:36:48: All done
+17:36:48: Parsing scripts for resource group Layouts
+17:36:48: Finished parsing scripts for resource group Layouts
+17:36:48: Creating resources for group Layouts
+17:36:48: All done
+17:36:48: Parsing scripts for resource group LookNFeel
+17:36:48: Finished parsing scripts for resource group LookNFeel
+17:36:48: Creating resources for group LookNFeel
+17:36:48: All done
+17:36:48: Parsing scripts for resource group Schemes
+17:36:48: Finished parsing scripts for resource group Schemes
+17:36:48: Creating resources for group Schemes
+17:36:48: All done
+17:36:48: Parsing scripts for resource group SkyX
+17:36:48: Parsing script SkyX.material
+17:36:48: Parsing script SkyX.material
+17:36:48: Finished parsing scripts for resource group SkyX
+17:36:48: Creating resources for group SkyX
+17:36:48: All done
+17:36:48: Added resource location '/usr/share/gazebo-7/media/rtshaderlib/' of type 'FileSystem' to resource group 'General'
+17:36:48: Creating resource group ShaderGeneratorResourceGroup
+17:36:48: Added resource location '/tmp/gazebo-eyobw-rtshaderlibcache/' of type 'FileSystem' to resource group 'ShaderGeneratorResourceGroup'
+17:36:48: Can't assign material _NULL_ to SubEntity of SkyXMeshEnt because this Material does not exist. Have you forgotten to define it in a .material script?
+17:36:48: Texture: SkyX_Starfield.png: Loading 1 faces(PF_L8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_L8,512x512x1.
+17:36:48: Texture: SkyX_Moon.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+17:36:48: Texture: SkyX_MoonHalo.png: Loading 1 faces(PF_A8R8G8B8,512x256x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x256x1.
+17:36:48: Texture: Noise.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+17:36:50: GLRenderSystem::_createRenderWindow "OgreWindow(1)", 1628x1003 windowed  miscParams: FSAA=4 macAPI=carbon parentWindowHandle=22601648:0:67108898 stereoMode=Frame Sequential 
+17:36:50: GLXWindow::create used FBConfigID = 187
+17:36:50: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+17:36:51: Added resource location '/home/eyobw/.gazebo/models/pioneer2dx/meshes' of type 'FileSystem' to resource group 'General' with recursive option
+17:36:51: Initialising resource group General
+17:36:51: Added resource location '/home/eyobw/.gazebo/models/hokuyo/meshes' of type 'FileSystem' to resource group 'General' with recursive option
+17:36:51: Initialising resource group General
+17:36:51: Added resource location '/usr/share/gazebo-7/media/models' of type 'FileSystem' to resource group 'General' with recursive option
+17:36:51: Initialising resource group General
+17:36:51: Texture: /usr/share/gazebo-7/media/models/gravel_256x256.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 5 hardware generated mipmaps from17:36:53: GLSL compiled: 
+17:36:53: GLSL compiled: 
+17:36:53: Vertex Program:Gazebo/LaserScan1stVS Fragment Program:Gazebo/LaserScan1stFS GLSL link result : 
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the 17:54:00: Unregistering ResourceManager for type Font
+17:54:00: DefaultWorkQueue('Root') shutting down on thread 7fcac3440280.
+17:54:00: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca86129700 stopped.
+17:54:00: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca85928700 stopped.
+17:54:00: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca85127700 stopped.
+17:54:00: DefaultWorkQueue('Root')::WorkerFunc - thread 7fca84926700 stopped.
+17:54:00: Unregistering ResourceManager for type BspLevel
+17:54:00: *-*-* OGRE Shutdown
+17:54:00: *-*-* OGRE Shutdown
+17:54:00: Unregistering ResourceManager for type Compositor
+17:54:00: Unregistering ResourceManager for type Skeleton
+17:54:00: Unregistering ResourceManager for type Mesh
+17:54:00: Unregistering ResourceManager for type HighLevelGpuProgram
+17:54:00: Uninstalling plugin: Octree Scene Manager
+17:54:00: Plugin successfully uninstalled
+17:54:00: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_OctreeSceneManager.so
+17:54:00: Uninstalling plugin: BSP Scene Manager
+17:54:00: Plugin successfully uninstalled
+17:54:00: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_BSPSceneManager.so
+17:54:00: Uninstalling plugin: ParticleFX
+17:54:00: Plugin successfully uninstalled
+17:54:00: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_ParticleFX.so
+17:54:00: Uninstalling plugin: GL RenderSystem
+17:54:00: Unregistering ResourceManager for type GpuProgram
+17:54:00: ******************************
+*** Stopping GLX Subsystem ***
+******************************
+17:54:00: Unregistering ResourceManager for type Texture
+17:54:00: Plugin successfully uninstalled
+17:54:00: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so
+17:54:00: Unregistering ResourceManager for type Material
+ex was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:36:53: GLSL compiled: 
+17:36:53: GLSL compiled: 
+17:36:53: Vertex Program:Gazebo/LaserScan2ndVS Fragment Program:Gazebo/LaserScan2ndFS GLSL link result : 
+17:39:10: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:11: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:11: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:14: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:14: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:14: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:15: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:15: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:16: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:16: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:30: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:30: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:32: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:32: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:33: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:33: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:34: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:35: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:35: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:36: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)
+17:39:36: OGRE EXCEPTION(5:ItemIdentityException): Parameter at the given index was not found. in Renderable::getCustomParameter at /usr/include/OGRE/OgreRenderable.h (line 279)

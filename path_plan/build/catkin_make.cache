@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/eyobw/path_plan/devel -DCMAKE_INSTALL_PREFIX=/home/eyobw/path_plan/install -G Unix Makefiles

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<sdf version='1.4'>
+	<model name="Simple Bot">
+		<static>false</static>
+		<link name='chassis'>
+			<pose>0 0 .1 0 0 0</pose>
+			<collision name='collision'>
+				<geometry>
+					<box><size>.5 .25 .125</size></box>
+				</geometry>
+			</collision>	
+			<visual name='visual'>
+				<geometry>
+					<box><size>.5 .25 .125</size></box>
+				</geometry>
+			</visual>
+		</link>
+		<link name='front left wheel'>
+			<pose>0.15 0.15 0.1 0 1.5707 1.5707</pose>
+			<collision name='collision'>
+				<geometry>
+					<cylinder>
+						<radius>0.1</radius>
+						<length>0.05</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			 <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+		</link>
+		<link name='front right wheel'>
+                        <pose>0.15 -0.15 0.1 0 1.5707 1.5707</pose>
+                        <collision name='collision'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </collision>
+                         <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+                </link>
+		<link name='back left wheel'>
+                        <pose>-0.15 0.15 0.1 0 1.5707 1.5707</pose>
+                        <collision name='collision'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </collision>
+                         <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+                </link>
+		<link name='back right wheel'>
+                        <pose>-0.15 -0.15 0.1 0 1.5707 1.5707</pose>
+                        <collision name='collision'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </collision>
+                         <visual name='visual'>
+                                <geometry>
+                                        <cylinder>
+                                                <radius>0.1</radius>
+                                                <length>0.05</length>
+                                        </cylinder>
+                                </geometry>
+                        </visual>
+                </link>
+		<joint type="revolute" name="front left wheel hinge">
+			<pose>0 0 0 0 0 0</pose>
+			<child>front left wheel</child>
+			<parent>chassis</parent>
+			<axis>
+				<xyz>0 1 0</xyz>
+			</axis>
+		</joint>
+		<joint type="revolute" name="front right wheel hinge">
+                        <pose>0 0 0 0 0 0</pose>
+                        <child>front right wheel</child>
+                        <parent>chassis</parent>
+                        <axis>
+                                <xyz>0 1 0</xyz>
+                        </axis>
+                </joint>
+		<joint type="revolute" name="back left wheel hinge">
+                        <pose>0 0 0 0 0 0</pose>
+                        <child>back left wheel</child>
+                        <parent>chassis</parent>
+                        <axis>
+                                <xyz>0 1 0</xyz>
+                        </axis>
+                </joint>
+		<joint type="revolute" name="back right wheel hinge">
+                        <pose>0 0 0 0 0 0</pose>
+                        <child>back right wheel</child>
+                        <parent>chassis</parent>
+                        <axis>
+                                <xyz>0 1 0</xyz>
+                        </axis>
+                </joint>
+
+		<include>
+			<uri>model://hokuyo</uri>
+			<pose>0.2 0 0.25 0 0 0</pose>
+		</include>
+		<joint type="revolute" name="hokuyo joint">
+			<child>hokuyo::link</child>
+			<parent>chassis</parent>
+			<axis>
+				<xyz>0 0 1</xyz>
+				<limit>
+					<upper>0</upper>
+					<lower>0</lower>
+				</limit>
+			</axis>
+		</joint>
+		 <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
+   			 <updateRate>100.0</updateRate>
+   			 <robotNamespace>/</robotNamespace>
+   			 <leftFrontJoint>front left wheel hinge</leftFrontJoint>
+   			 <rightFrontJoint>front right wheel hinge</rightFrontJoint>
+   			 <leftRearJoint>back left wheel hinge</leftRearJoint>
+   			 <rightRearJoint>back right wheel hinge</rightRearJoint>
+   			 <wheelSeparation>0.25</wheelSeparation>
+   			 <wheelDiameter>0.1</wheelDiameter>
+   			 <robotBaseFrame>chassis</robotBaseFrame>
+   			 <torque>20</torque>
+   			 <topicName>cmd_vel</topicName>
+   			 <broadcastTF>false</broadcastTF>
+ 		 </plugin>
+	</model>
+</sdf>
+
