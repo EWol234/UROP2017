@@ -1,0 +1,32 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+	<machine name="dbot2" address="dbot2" env-loader="/home/user/ws/src/2017dbotintro/_config/ros_remote_dbot2.sh" user="user" password="roboteam" />
+
+	<group ns="dbot2">
+		<!-- CONFIGURATION -->
+		<param name="imu_port" type="str" value="/dev/ttyACM0" />
+		<param name="neato_port" type="str" value="/dev/ttyACM3" />
+		<param name="pololu_port" type="str" value="/dev/ttyACM1" />
+		
+		<!---DRIVETRAIN -->
+		<node name="drivetrain" pkg="d_hwnodes" type="d_drivetrain.py" machine="dbot2"/>
+
+		<!--- ACTUATOR DRIVERS -->
+		<node name="pololuSB" pkg="d_hwnodes" type="PololuIO" machine="dbot2"/>
+
+		<!--- CAMERA -->
+  		<node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen">
+    			<param name="video_device" value="/dev/video0" />
+    			<param name="image_width" value="160" />
+    			<param name="image_height" value="120" />
+    			<param name="pixel_format" value="mjpeg" />
+    			<param name="camera_frame_id" value="usb_cam" />
+    			<param name="io_method" value="mmap" />
+  		</node>
+ 		<node name="image_view" pkg="image_view" type="image_view" respawn="false">
+   			<remap from="image" to="/usb_cam/image_raw" />
+   			<param name="autosize" value="true" />
+		</node>
+
+	</group>
+</launch>

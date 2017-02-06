@@ -1,0 +1,18 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+	<machine name="dbot3" address="dbot3" env-loader="/home/user/ws/src/2017dbotintro/_config/ros_remote_dbot3.sh" user="user" password="roboteam" />
+
+	<group ns="dbot3">
+		<!-- CONFIGURATION -->
+		<param name="imu_port" type="str" value="/dev/ttyACM0" />
+		<param name="neato_port" type="str" value="/dev/ttyACM3" />
+		<param name="pololu_port" type="str" value="/dev/ttyACM1" />
+		
+		<!---DRIVETRAIN -->
+		<node name="drivetrain" pkg="d_hwnodes" type="d_drivetrain.py" machine="dbot3"/>
+
+		<!--- ACTUATOR DRIVERS -->
+		<node name="pololuSB" pkg="d_hwnodes" type="PololuIO" machine="dbot3"/>
+
+	</group>
+</launch>

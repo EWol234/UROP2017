@@ -1,0 +1,12 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+	<machine name="dbot3" address="dbot3" env-loader="/home/user/ws/src/2017dbotintro/_config/ros_remote_dbot3.sh" user="user" password="roboteam" />
+	
+	<group ns="dbot3">
+
+		<!-- DRIVETRAIN -->
+		<node name="d_teleop" pkg="test" type="d_teleop.py" machine="dbot3"/>
+		<node name="d_teleop" pkg="test" type="d_teleop.py" machine="dbot3"/>
+
+	</group>
+</launch>

@@ -1,0 +1,9 @@
+bash -i << LOCAL
+gpush "$1"
+LOCAL
+sshpass -p 'user' ssh user@dbot<< EOF
+bash -i << REMOTE
+gpull
+REMOTE
+EOF
+

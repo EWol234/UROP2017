@@ -1,0 +1,10 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+<!--	<include file="/opt/ros/kinetic/share/gazebo_ros/launch/empty_world.launch" /> -->
+	<include file="/home/eyobw/catkin_ws/src/hector_nist_arena_worlds/launch/inner_explore_test.launch" />
+<!--	<node name="joystick" pkg="joy" type="joy_node" /> -->
+<!--	<node name="drive" pkg="test" type="d_joystick2.py" /> -->
+	<node name="spawn_sdf" pkg="gazebo_ros" type="spawn_model" args="-file /home/eyobw/.gazebo/models/pioneer2dx/model.sdf -sdf -model pioneer2dx" />
+	<node name="frame_tf" pkg="tf" type="static_transform_publisher" args="0.1 0 0.295 0 0 0 base_link laser 10" />
+</launch>
+

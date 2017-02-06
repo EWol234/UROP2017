@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>D_test</name>
+  <version>0.0.1</version>
+  <description>test Nodes</description>
+  <maintainer email="roboops@todo.todo">roboops</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>centennial_msgs</build_depend>
+  <build_depend>centennial_utils</build_depend>
+  <!-- <build_depend>dynamixel_controllers</build_depend> -->
+  <build_depend>cmake_modules</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>centennial_msgs</run_depend>
+  <run_depend>centennial_utils</run_depend>
+  <!-- <run_depend>dynamixel_controllers</run_depend> -->
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+
+  </export>
+</package>
